@@ -4,9 +4,10 @@ import VersionBadge from "./components/VersionBadge"
 import LoginButton from "./components/LoginButton"
 import SubscribeButton from "./components/SubscribeButton"
 
+// Site header with name, nav, login and join buttons
 export default function Header() {
     return (
-        <div className="fixed top-0 left-0 right-0 h-14 bg-background border-b border-border flex items-center justify-between px-4">
+        <div className="fixed top-0 left-0 right-0 h-14 bg-background border-b border-border flex items-center justify-between px-4 z-10">
             <div>
                 <Title />
             </div>
